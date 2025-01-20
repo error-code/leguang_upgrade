@@ -4,7 +4,7 @@
 
 ## 示例效果
 
-<img src="https://raw.githubusercontent.com/BytesZero/app_installer/master/images/iOS_Go_Store.gif" width="220"/>
+<img src="https://raw.githubusercontent.com/error-code/leguang_upgrade/refs/heads/main/img/1.jpg" width="220"/>
 
 ## Getting Started
 
