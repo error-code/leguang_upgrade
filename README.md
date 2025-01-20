@@ -5,6 +5,7 @@
 ## 示例效果
 
 <img src="https://raw.githubusercontent.com/error-code/leguang_upgrade/refs/heads/main/img/1.jpg" width="220"/>
+<video src="https://github.com/error-code/leguang_upgrade/raw/refs/heads/main/img/video.mp4" width="220"/>
 
 ## Getting Started
 
