@@ -2,6 +2,10 @@
 
 乐逛升级检测组件，适用android/ios
 
+## 示例效果
+
+<img src="https://raw.githubusercontent.com/BytesZero/app_installer/master/images/iOS_Go_Store.gif" width="220"/>
+
 ## Getting Started
 
 > ⚠️需要先允许读取存储权限才可以，不然会出现解析包错误⚠️
