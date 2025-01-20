@@ -137,7 +137,7 @@ class _LeguangUpgradeDialogState extends State<LeguangUpgradeDialog> {
                             ]
                         )),
                       ),
-                      if(!widget.data.force)
+                      if(!widget.data.force||!updating)
                         Positioned(
                           right: 8,
                           top: 40,
@@ -145,8 +145,8 @@ class _LeguangUpgradeDialogState extends State<LeguangUpgradeDialog> {
                             onTap: close,
                             child: Container(
                               decoration: BoxDecoration(
-                                  color: Colors.white.withOpacity(.5),
-                                  borderRadius: BorderRadius.circular(20)
+                                color: Colors.white.withOpacity(.5),
+                                borderRadius: BorderRadius.circular(20)
                               ),
                               padding: const EdgeInsets.all(4),
                               child: const Icon(Icons.close,color: Colors.white,size: 20),
