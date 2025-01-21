@@ -4,10 +4,9 @@
 
 ## 示例效果
 
-|图片| 视频 |
-|:-:|:-:|
-|<img src="https://raw.githubusercontent.com/error-code/leguang_upgrade/refs/heads/main/img/1.jpg" width="220"/>|<video width="220" src="https://raw.githubusercontent.com/error-code/leguang_upgrade/refs/heads/main/img/video.mp4" autoplay="true" controls="controls" width="800" height="600">
-</video>|
+|                                                              图片                                                              |                                                                                                                   视频                                                                                                                   |
+|:----------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="https://raw.githubusercontent.com/error-code/leguang_upgrade/refs/heads/main/img/1.jpg" width="220" height="488"/> |                             <video src="https://raw.githubusercontent.com/error-code/leguang_upgrade/refs/heads/main/img/video.mp4" autoplay="true" controls="controls" width="220" height="488"></video>|
 
 
 ## Getting Started
