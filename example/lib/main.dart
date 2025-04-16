@@ -53,12 +53,10 @@ class _MyAppState extends State<MyApp> {
     UpgradeEntity data = UpgradeEntity(
       title: '有新功能可用',
       version: 'V1.2.67',
-      notes: [
-        '1、我们改进了交互操作等相关的一些操作希望你每次下单都有好的体验',
-        '2、我们优化了与物流相关的部分功能你现在下单可以支持更多物流进行配送了',
-        '2、我们优化了与物流相关的部分功能你现在下单可以支持更多物流进行配送了',
-        '2、我们优化了与物流相关的部分功能你现在下单可以支持更多物流进行配送了',
-      ],
+      notes: '1、我们改进了交互操作等相关的一些操作希望你每次下单都有好的体验\n'
+        '2、我们优化了与物流相关的部分功能你现在下单可以支持更多物流进行配送了\n'
+        '2、我们优化了与物流相关的部分功能你现在下单可以支持更多物流进行配送了\n'
+        '2、我们优化了与物流相关的部分功能你现在下单可以支持更多物流进行配送了\n',
       downloadUrl: 'https://linlijiangnan-1319477496.cos.ap-nanjing.myqcloud.com/uploads/file/20241231/2024123114262709dc18821.apk',
       headers: {
         'referer':'app.linlijiangnan.com'

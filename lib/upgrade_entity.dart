@@ -4,7 +4,7 @@ class UpgradeEntity{
   ///[version] 版本号
   String? version;
   ///[notes] 更新说明
-  List<String>? notes;
+  String? notes;
   ///[downloadUrl] 下载地址
   final String downloadUrl;
   ///[headers] 下载时需要额外传参

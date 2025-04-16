@@ -38,7 +38,7 @@ class _LeguangUpgradeDialogState extends State<LeguangUpgradeDialog> {
     }
     updating = true;
     setState(() {});
-    downloadApkHandler('https://linlijiangnan-1319477496.cos.ap-nanjing.myqcloud.com/uploads/file/20241231/2024123114262709dc18821.apk','${(await getDownloadsDirectory())?.path}/leguang.apk');
+    downloadApkHandler(widget.data.downloadUrl,'${(await getDownloadsDirectory())?.path}/leguang.apk');
   }
 
   void close(){
@@ -162,7 +162,7 @@ class _LeguangUpgradeDialogState extends State<LeguangUpgradeDialog> {
                     ),
                     child: SingleChildScrollView(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: Text(widget.data.notes==null?'常规更新':widget.data.notes!.join('\n'),style: const TextStyle(
+                      child: Text(widget.data.notes??'常规更新',style: const TextStyle(
                         height: 1.8,
                       )),
                     ),

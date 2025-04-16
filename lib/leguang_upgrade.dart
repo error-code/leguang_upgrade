@@ -2,8 +2,9 @@
 import 'package:flutter/material.dart';
 
 import 'leguang_upgrade_dialog.dart';
-import 'leguang_upgrade_platform_interface.dart';
+// import 'leguang_upgrade_platform_interface.dart';
 import 'upgrade_entity.dart';
+export 'upgrade_entity.dart';
 
 // class LeguangUpgrade {
 //   Future<String?> getPlatformVersion() {
@@ -19,7 +20,7 @@ class LeguangUpgrade extends StatefulWidget {
     this.debug = true
   });
   final Widget child;
-  final Future<UpgradeEntity>Function()? onCheck;
+  final Future<UpgradeEntity?>Function()? onCheck;
   final bool debug;
 
   @override
