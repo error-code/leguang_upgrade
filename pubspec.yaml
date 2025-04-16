@@ -76,3 +76,4 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
+# 大陆发布命令：flutter pub publish --server=https://pub.dartlang.org
